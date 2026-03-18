@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+COA-TheGame/Content/** filter=lfs diff=lfs merge=lfs -text
+COA-TheGame/Config/** filter=lfs diff=lfs merge=lfs -text
+COA-TheGame/DerivedDataCache/** filter=lfs diff=lfs merge=lfs -text
+COA-TheGame/Intermediate/** filter=lfs diff=lfs merge=lfs -text
+COA-TheGame/Saved/** filter=lfs diff=lfs merge=lfs -text
+COA-TheGame/Jogo/** filter=lfs diff=lfs merge=lfs -text
