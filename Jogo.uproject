@@ -27,7 +27,7 @@
 		},
 		{
 			"Name": "SERIALCOM",
-			"Enabled": true
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
